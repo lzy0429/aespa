@@ -1,0 +1,184 @@
+/* 背景和內邊距 */
+body {
+  background-color: #f7fafc; /* 淺灰色背景 */
+  padding: 1.5rem; /* 內邊距 */
+}
+
+/* 主內容框 */
+.max-w-3xl {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* 標題 */
+h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #7e22ce; /* 紫色 */
+}
+
+/* 內容區文字 */
+.text-center {
+  text-align: center;
+}
+
+.text-gray-600 {
+  color: #4a5568; /* 灰色文字 */
+}
+
+.text-gray-700 {
+  color: #2d3748; /* 深灰色文字 */
+}
+
+.text-purple-700 {
+  color: #6b46c1; /* 紫色 */
+}
+
+.text-blue-700 {
+  color: #2b6cb0; /* 藍色 */
+}
+
+.text-red-700 {
+  color: #c53030; /* 紅色 */
+}
+
+.text-yellow-700 {
+  color: #d69e2e; /* 黃色 */
+}
+
+/* 卡片內容 */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-purple-300 {
+  border-color: #d6bcfa; /* 淺紫色 */
+}
+
+.border-blue-300 {
+  border-color: #93c5fd; /* 淺藍色 */
+}
+
+.border-red-300 {
+  border-color: #fbd5d5; /* 淺紅色 */
+}
+
+.border-yellow-300 {
+  border-color: #fefcbf; /* 淺黃色 */
+}
+
+/* Tab按鈕 */
+.tab-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem 0.75rem 0 0;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tab-button:hover {
+  background-color: #edf2f7; /* 淺灰色背景 */
+}
+
+.tab-button.active {
+  border-color: #7e22ce; /* 激活tab的底部邊框顏色 */
+  color: #7e22ce;
+}
+
+/* Tab內容 */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* 導航欄 */
+#tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0; /* 淺灰色邊框 */
+}
+
+#tabs li {
+  margin-right: 0.5rem;
+}
+
+#tabs li:last-child {
+  margin-right: 0;
+}
+
+ul.list-disc {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
